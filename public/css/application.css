@@ -1,0 +1,91 @@
+
+body {
+  background:#686868;
+}
+
+
+#header  {
+  text-align: center;
+  color: white;
+  height: 100px;
+  top:0;
+  width: 100%;
+  z-index: 100;
+}
+
+#header, a {
+  text-decoration: none;
+  font-size: 250%;
+}
+
+.projects {
+  text-align: center;
+}
+
+.projects a {
+  width: 60px;
+  padding-right: 80px;
+}
+
+.projects a:hover {
+  border-color: orange;
+}
+/*
+a:link, a:visited {
+  color: white;
+}
+
+a:hover, a:active {
+  color: orange;
+}*/
+
+
+ul {
+  list-style-type: none;
+}
+
+#lyndsey_pic_container {
+  border-bottom: 1px dotted white;
+  padding-bottom: 30px;
+}
+.main-navigation {
+  text-align: center;
+  border-bottom: 1px dotted white;
+  padding-bottom: 30px;
+}
+
+.main-navigation li {
+  display: inline-block;
+}
+
+.main-navigation li a {
+  width: 60px;
+  padding-right: 80px;
+}
+
+
+.lyndsey_info_text {
+  position: relative;
+  text-align: center;
+  font-size: 150%;
+  top: 50%;
+  color: white;
+}
+
+.lyndsey {
+  position: relative;
+  padding-left: 450px;
+}
+
+.info_text {
+  font-size: 150%;
+  top: 50%;
+  color: white;
+}
+
+.footer {
+  text-align: center
+}
+
+
+
